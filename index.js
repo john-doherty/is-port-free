@@ -11,8 +11,11 @@ module.exports = function (port, fn) {
         // reject if port in use
         server.once('error', function (err) {
 
-            if (err.code === 'EADDRINUSE') {
+            if (err.code === 'EADDRINUSE' || err.code === 'EACCES') {
                 reject('port in use');
+            }
+            else{
+                debugger;
             }
         });
 
