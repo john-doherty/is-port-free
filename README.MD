@@ -1,5 +1,7 @@
 # is-port-free
 
+[![npm](https://img.shields.io/npm/dt/is-port-free.svg)](https://www.npmjs.com/package/is-port-free) [![Linked In](https://img.shields.io/badge/Linked-In-blue.svg)](https://www.linkedin.com/in/john-i-doherty) [![Twitter Follow](https://img.shields.io/twitter/follow/CambridgeMVP.svg?style=social&label=Twitter&style=plastic)](https://twitter.com/CambridgeMVP)
+
 A simple node module to check if a TCP port is free on the local machine.
 
 ## Installation
@@ -23,4 +25,4 @@ isPortFree(8080).then(function(){
 
 ## License
 
-[ISC License](LICENSE) &copy; 2016 [John Doherty](https://courseof.life/johndoherty)
+Licensed under [ISC License](LICENSE) &copy; [John Doherty](https://twitter.com/CambridgeMVP)
