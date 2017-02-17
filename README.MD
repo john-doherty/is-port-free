@@ -1,6 +1,6 @@
 # is-port-free
 
-A Node.js module to check if a TCP port is free.
+A simple node module to check if a TCP port is free on the local machine.
 
 ## Installation
 
