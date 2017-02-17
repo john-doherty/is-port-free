@@ -23,6 +23,14 @@ isPortFree(8080).then(function(){
 });
 ```
 
+## Running tests
+
+Install dev dependencies and run tests:
+
+```
+$ npm install -d && npm test
+```
+
 ## License
 
 Licensed under [ISC License](LICENSE) &copy; [John Doherty](https://twitter.com/CambridgeMVP)

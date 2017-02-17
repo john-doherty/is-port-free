@@ -1,6 +1,6 @@
 {
   "name": "is-port-free",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple node module to check if a TCP port is free on the local machine.",
   "main": "index.js",
   "scripts": {
